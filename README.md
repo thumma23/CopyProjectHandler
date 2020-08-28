@@ -12,3 +12,19 @@ The third method - push_project - requires three parameters: new_project, push_b
   push_branch : name of branch where the user wants to push changes
   file_action : action user chooses to do, options are: "create", "update", and "delete"
   
+  How to Use - 
+    Create class object with domain name and private token parameters and call selected method.
+    Eg:
+    
+    Domain name = 123.com
+    private token = 'abc'
+    
+    *****************************
+    
+    from gitlab import gl_project
+    
+    gl_project_obj = gl_project('123.com' , 'abc')
+    // to call method
+    gl_project_obj.create_new_project(*params*)
+    
+  
