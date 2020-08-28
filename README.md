@@ -13,11 +13,11 @@ The third method - push_project - requires three parameters: new_project, push_b
   file_action : action user chooses to do, options are: "create", "update", and "delete"
   
   How to Use - 
-    Create class object with domain name and private token parameters and call selected method.
-    Eg:
+   Create class object with domain name and private token parameters and call selected method.
+   Eg:
     
-    Domain name = 123.com
-    private token = 'abc'
+   Domain name = 123.com
+   private token = 'abc'
     
     *****************************
     
