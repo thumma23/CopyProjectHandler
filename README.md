@@ -11,7 +11,7 @@ This program allows the user to create a project within a specified group, copy 
 ### archive_project 
 - requires one parameter: id and archives the selected project into the user's local workspace
  
- 1. id : id of project user wants to copy
+  1. id : id of project user wants to copy
   
 ### push_project 
 - requires three parameters: new_project, push_branch, file_action and pushes the archived project to a selected project group
@@ -20,7 +20,7 @@ This program allows the user to create a project within a specified group, copy 
   2. push_branch : name of branch where the user wants to push changes
   3. file_action : action user chooses to do, options are: "create", "update", and "delete"
   
-# How to Use - 
+# How to Use: 
    Create class object with domain name and private token parameters and call selected method.
    Eg:
     
